@@ -51,7 +51,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Static label generation</div>
                     <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -66,7 +66,7 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Dynamic label generation</div>
                     <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">

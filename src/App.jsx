@@ -11,6 +11,7 @@ import './css/style.css';
 import AOS from 'aos';
 
 import Home from './pages/Home';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
@@ -38,6 +39,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route path='/privacy' element={<PrivacyPolicy/>} />
         {/* <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPassword />} /> */}

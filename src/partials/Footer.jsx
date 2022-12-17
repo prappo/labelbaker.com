@@ -14,21 +14,44 @@ function Footer() {
             <div className="mb-2">
               {/* Logo */}
               <Link to="/" className="inline-block" aria-label="Cruip">
-                <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="footer-logo">
-                      <stop stopColor="#4FD1C5" offset="0%" />
-                      <stop stopColor="#81E6D9" offset="25.871%" />
-                      <stop stopColor="#338CF5" offset="100%" />
-                    </radialGradient>
-                  </defs>
-                  <rect width="32" height="32" rx="16" fill="url(#footer-logo)" fillRule="nonzero" />
-                </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0"
+                y="0"
+                className="w-10"
+                enableBackground="new 0 0 406.585 406.585"
+                version="1.1"
+                viewBox="0 0 406.585 406.585"
+                xmlSpace="preserve"
+              >
+                <path
+                  fill="#F7E88B"
+                  d="M203.292 406.585L17.588 289.939 203.292 173.292 388.997 289.939z"
+                ></path>
+                <path
+                  fill="#F9A18A"
+                  d="M203.292 319.935L17.588 203.289 203.292 86.642 388.997 203.289z"
+                ></path>
+                <path
+                  fill="#88C5FC"
+                  d="M388.997 116.64L203.298 233.29 145.077 196.72 77.548 154.3 17.588 116.64 203.298 0 229.537 16.48 297.078 58.9z"
+                ></path>
+                <path
+                  fill="#F2F2F2"
+                  d="M86.563 246.614L203.292 319.936 320.023 246.614 203.292 173.292z"
+                  enableBackground="new"
+                  opacity="0.23"
+                ></path>
+                <path
+                  fill="#F2F2F2"
+                  d="M86.559 159.966L203.292 233.291 320.027 159.966 203.292 86.642z"
+                  enableBackground="new"
+                  opacity="0.23"
+                ></path>
+              </svg>
               </Link>
             </div>
-            <div className="text-sm text-gray-600">
-              <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link> · <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
-            </div>
+            
           </div>
 
           {/* 2nd block */}
@@ -92,7 +115,7 @@ function Footer() {
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</Link>
+                <Link to="/privacy" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</Link>
               </li>
             </ul>
           </div>
