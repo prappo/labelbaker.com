@@ -34,7 +34,7 @@ function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Solutions it provides</h1>
-            <p className="text-xl text-gray-600">The label maker web application is a powerful and convenient tool for creating custom labels for a wide range of purposes. Whether you need to label products, organize documents, or identify items in a collection, this application has the features and flexibility to help you get the job done.</p>
+            <p className="text-xl text-gray-600">The <b>Label Baker</b> web application is a powerful and convenient tool for creating custom labels for a wide range of purposes. Whether you need to label products, organize documents, or identify items in a collection, this application has the features and flexibility to help you get the job done.</p>
           </div>
 
           {/* Section content */}
