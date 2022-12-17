@@ -33,8 +33,8 @@ function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Solutions that it provides</h1>
-            <p className="text-xl text-gray-600">Label Baker is a web application that allows users to create custom labels for various purposes, such as labeling products, organizing documents, or identifying items in a collection. This application provides a variety of templates, layouts, and design tools to help users customize the appearance of their labels, including options for text, graphics, shapes, barcodes, QRcode, and more. Users can also import their own images or logos to use on the labels. Once the labels are designed, they can be printed out on a variety of materials, such as paper, vinyl, or plastic. Label Baker also offers automatic label generation based on data input or integration with external data sources.</p>
+            <h1 className="h2 mb-4">Solutions it provides</h1>
+            <p className="text-xl text-gray-600">The label maker web application is a powerful and convenient tool for creating custom labels for a wide range of purposes. Whether you need to label products, organize documents, or identify items in a collection, this application has the features and flexibility to help you get the job done.</p>
           </div>
 
           {/* Section content */}
