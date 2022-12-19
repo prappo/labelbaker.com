@@ -169,7 +169,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Made by <a target="_blank" className="text-blue-600 hover:underline" href="https://prappo.dev/">Prappo</a>. All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4">Made by <a target="_blank" className="text-blue-600 hover:underline" href="https://twitter.com/prappo_p">Prappo</a>. All rights reserved.</div>
 
         </div>
 
