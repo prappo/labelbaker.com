@@ -78,6 +78,25 @@ function FeaturesBlocks() {
               <p className="text-gray-600 text-center">You can import xls / csv data as your data source. You can also import data from external API.</p>
             </div>
 
+            {/* 5th item */}
+            <div className="relative h-full flex flex-col items-center p-6 bg-white rounded shadow-xl">
+
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                <path d="M0 0v35h35V0H0zm33 33H2V2h31v31z"></path>
+                <path d="M14 4.5H21V11.5H14z"></path>
+                <path d="M14 14H21V21H14z"></path>
+                <path d="M14 23.5H21V30.5H14z"></path>
+                <path d="M4.5 4.5H11.5V11.5H4.5z"></path>
+                <path d="M4.5 14H11.5V21H4.5z"></path>
+                <path d="M4.5 23.5H11.5V30.5H4.5z"></path>
+                <path d="M23.5 4.5H30.5V11.5H23.5z"></path>
+                <path d="M23.5 14H30.5V21H23.5z"></path>
+                <path d="M23.5 23.5H30.5V30.5H23.5z"></path>
+              </svg>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Layout Maker</h4>
+              <p className="text-gray-600 text-center">Built in tool that helps you to make your own layout.</p>
+            </div>
+
             {/* 6th item */}
             <div className="relative h-full flex flex-col items-center p-6 bg-white rounded shadow-xl">
 
