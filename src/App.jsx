@@ -12,9 +12,10 @@ import AOS from 'aos';
 
 import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
-import ResetPassword from './pages/ResetPassword';
+import NotFound from './pages/404';
+// import SignIn from './pages/SignIn';
+// import SignUp from './pages/SignUp';
+// import ResetPassword from './pages/ResetPassword';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
         {/* <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPassword />} /> */}
+        <Route path='*' element={<NotFound />}/>
       </Routes>
     </>
   );
