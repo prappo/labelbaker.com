@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-
+import Logo from '../images/logo.svg'
 function Header() {
   const [top, setTop] = useState(true)
 
@@ -24,42 +24,8 @@ function Header() {
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="Cruip">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                x="0"
-                y="0"
-                className="w-10"
-                enableBackground="new 0 0 406.585 406.585"
-                version="1.1"
-                viewBox="0 0 406.585 406.585"
-                xmlSpace="preserve"
-              >
-                <path
-                  fill="#F7E88B"
-                  d="M203.292 406.585L17.588 289.939 203.292 173.292 388.997 289.939z"
-                ></path>
-                <path
-                  fill="#F9A18A"
-                  d="M203.292 319.935L17.588 203.289 203.292 86.642 388.997 203.289z"
-                ></path>
-                <path
-                  fill="#88C5FC"
-                  d="M388.997 116.64L203.298 233.29 145.077 196.72 77.548 154.3 17.588 116.64 203.298 0 229.537 16.48 297.078 58.9z"
-                ></path>
-                <path
-                  fill="#F2F2F2"
-                  d="M86.563 246.614L203.292 319.936 320.023 246.614 203.292 173.292z"
-                  enableBackground="new"
-                  opacity="0.23"
-                ></path>
-                <path
-                  fill="#F2F2F2"
-                  d="M86.559 159.966L203.292 233.291 320.027 159.966 203.292 86.642z"
-                  enableBackground="new"
-                  opacity="0.23"
-                ></path>
-              </svg>
+            <Link to="/" className="block" aria-label="LabelBaker">
+             <img className="w-14" src={Logo} />
             </Link>
           </div>
 
