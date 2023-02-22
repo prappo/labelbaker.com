@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import Logo from '../images/logo.svg'
+import Logo from '../images/logo_with_text.svg'
 function Header() {
   const [top, setTop] = useState(true)
 
@@ -25,7 +25,7 @@ function Header() {
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
             <Link to="/" className="block" aria-label="LabelBaker">
-             <img className="w-14" src={Logo} />
+             <img style={{width:'200px'}} src={Logo} />
             </Link>
           </div>
 
