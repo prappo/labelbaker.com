@@ -13,6 +13,7 @@ import AOS from 'aos';
 import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import NotFound from './pages/404';
+import ShareEditableTemplate from './pages/features/ShareEditableTemplates'
 // import SignIn from './pages/SignIn';
 // import SignUp from './pages/SignUp';
 // import ResetPassword from './pages/ResetPassword';
@@ -44,6 +45,7 @@ function App() {
         {/* <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPassword />} /> */}
+        <Route path='/feature/share-editable-template' element={<ShareEditableTemplate />} />
         <Route path='*' element={<NotFound />}/>
       </Routes>
     </>

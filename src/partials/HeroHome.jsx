@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useEffect } from 'react'
-
+import { Link } from 'react-router-dom';
 import Modal from '../utils/Modal';
 
 import HeroImage from '../images/Label-Baker.png';
@@ -84,9 +84,9 @@ function HeroHome() {
                   <img className='w-full' src={SliderImage1} />
                 </a>
                 
-                <a href='#' className='rounded-md hover:shadow-xl cursor-pointer hover:ring-1'>
+                <Link to='/feature/share-editable-template' className='rounded-md hover:shadow-xl cursor-pointer hover:ring-1'>
                   <img className='w-full' src={SliderImage3} />
-                </a>
+                </Link>
                 <a href='#' className='rounded-md hover:shadow-xl cursor-pointer hover:ring-1'>
                   <img className='w-full' src={SliderImage4} />
                 </a>
