@@ -7,7 +7,8 @@ import FeaturesBlocks from '../partials/FeaturesBlocks';
 import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
-import Banner from '../partials/Banner';
+import FeatureCards from '../partials/FeatureCards';
+import CreateFeature from '../partials/CreateFeature';
 
 function Home() {
   return (
@@ -21,8 +22,13 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <FeaturesHome />
-        <FeaturesBlocks />
+        
+        {/* Feature cards */}
+        <FeatureCards />
+
+        {/* how it works video section */}
+        <CreateFeature />
+        {/* <FeaturesBlocks /> */}
         {/* <Testimonials /> */}
         {/* <Newsletter /> */}
 
