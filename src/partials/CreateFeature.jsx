@@ -52,11 +52,13 @@ function Features() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Generate Image/PDF using Template</h1>
 
-            <p className="text-xl text-gray-600">You can create a image content using predesigned template in secenods. <br></br> Or you can create your own template.</p>
+            <p className="text-xl text-gray-600">You can create image content or PDF using the predesigned template in seconds.
+              Or you can create your own template.</p>
+            
           </div>
 
           <div className='flex justify-center w-full gap-10'>
-            <button onClick={()=> setPreview(false)}>How to</button><button onClick={()=> setPreview(true)}>Live Preview</button>
+            <button onClick={() => setPreview(false)}>How to</button><button onClick={() => setPreview(true)}>Live Preview</button>
           </div>
 
 
@@ -80,7 +82,7 @@ function Features() {
 
                     <div>
                       <div className="font-bold leading-snug  tracking-tight">Choose a Template</div>
-                      <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                      <div className="text-gray-600">You can choose any predesigned template or the template you have made.</div>
                     </div>
 
                   </a>
@@ -95,7 +97,7 @@ function Features() {
                     <div>
                       <div>
                         <div className="font-bold leading-snug tracking-tight">Modify the content</div>
-                        <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                        <div className="text-gray-600">Change the value and preference of the element.</div>
                       </div>
 
                     </div>
@@ -111,7 +113,7 @@ function Features() {
                     </div>
                     <div>
                       <div className="font-bold leading-snug tracking-tight">Download</div>
-                      <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                      <div className="text-gray-600">Download it in PNG, JPG, or PDF format.</div>
 
                     </div>
 
