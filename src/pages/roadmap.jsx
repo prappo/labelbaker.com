@@ -1,10 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Header from '../partials/Header';
-import Banner from '../partials/Banner';
+import Footer from '../partials/Footer';
 
-function PageNotFound() {
+function Iframe(props) {
+  return (<div dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : "" }} />);
+}
+
+
+function Roadmap() {
+  let previewCode = `<iframe src="https://app.loopedin.io/labelbaker" height="900" width="100%" frameborder="0"></iframe>`
+
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
@@ -12,16 +18,16 @@ function PageNotFound() {
       <Header />
 
       {/*  Page content */}
-      <main className="flex-grow">
+      <main className="flex-grow py-20">
+        <Iframe iframe={previewCode} />
 
-       
 
       </main>
 
-      
+      <Footer />
 
     </div>
   );
 }
 
-export default PageNotFound;
+export default Roadmap;

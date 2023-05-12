@@ -58,6 +58,9 @@ function Footer() {
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">Company</h6>
             <ul className="text-sm">
+            <li className="mb-2">
+                <Link to="/roadmap" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Roadmap</Link>
+              </li>
               
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</Link>
@@ -127,7 +130,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Made with love by <a className="text-blue-600 hover:underline" href="https://twitter.com/prappo_p">Prappo</a>. All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4"> All rights reserved.</div>
 
         </div>
 
