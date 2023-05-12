@@ -6,7 +6,7 @@ import SliderImage2 from '../images/Slider-2.png';
 import SliderImage3 from '../images/Slider-3.png';
 import SliderImage4 from '../images/Slider-4.png';
 import Modal from '../utils/Modal';
-import HeroImage from '../images/hero-image.png';
+import HeroImage from '../images/Labelbaker-web-banner-1544-x-500.jpeg';
 export default function FeatureCards() {
 
     const [videoModalOpen, setVideoModalOpen] = useState(false)
@@ -33,7 +33,7 @@ export default function FeatureCards() {
 
 
                 <div className="flex flex-col justify-center">
-                    <img className="mx-auto rounded-md px-2 shadow-2xl" src={HeroImage} width="600"  alt="Label Baker" />
+                    <img className="mx-auto rounded-md shadow-2xl" src={HeroImage}  alt="Label Baker" />
 
                 </div>
                 <button className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">

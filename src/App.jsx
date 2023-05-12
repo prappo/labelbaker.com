@@ -15,6 +15,9 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import NotFound from './pages/404';
 import ShareEditableTemplate from './pages/features/ShareEditableTemplates'
 import Roadmap from './pages/roadmap';
+import Products from './pages/Products';
+import Pricing from './pages/Pricing';
+import Blog from './pages/Blog';
 // import SignIn from './pages/SignIn';
 // import SignUp from './pages/SignUp';
 // import ResetPassword from './pages/ResetPassword';
@@ -49,6 +52,9 @@ function App() {
         <Route path='/feature/share-editable-template' element={<ShareEditableTemplate />} />
         <Route path='*' element={<NotFound />}/>
         <Route path='/roadmap' element={<Roadmap />} />
+        <Route path='/products' element={<Products />} />
+        <Route path='/pricing' element={<Pricing />} />
+        <Route path='/blog' element={<Blog />} />
       </Routes>
     </>
   );

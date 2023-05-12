@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from '../partials/Header';
 import Footer from '../partials/Footer';
 
-function PageNotFound() {
+function Products() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
@@ -20,7 +20,7 @@ function PageNotFound() {
 
               {/* Page header */}
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                <h1 className="h1">404 page not found</h1>
+                <h1 className="h1">Products</h1>
               </div>
 
              
@@ -37,4 +37,4 @@ function PageNotFound() {
   );
 }
 
-export default PageNotFound;
+export default Products;

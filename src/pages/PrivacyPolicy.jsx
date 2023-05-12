@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import Header from '../partials/Header';
-
+import Footer from '../partials/Footer';
 function PrivacyPolicy() {
     return (
         <div className="flex flex-col min-h-screen overflow-hidden">
@@ -76,7 +76,7 @@ function PrivacyPolicy() {
 
             </main>
 
-
+        <Footer />
 
         </div>
     );

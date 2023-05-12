@@ -19,7 +19,7 @@ function Footer() {
               </Link>
             </div>
             <div className="text-sm text-gray-600">
-              <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link> · <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
+              <Link to="/privacy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</Link> · <Link to="/privacy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
             </div>
           </div>
 
@@ -27,11 +27,18 @@ function Footer() {
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">Products</h6>
             <ul className="text-sm">
-              <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Template Editor</Link>
-              </li>
+              
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Visuals generation</Link>
+              </li>
+              <li className="mb-2">
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Shareable forms to generate visuals</Link>
+              </li>
+              <li className="mb-2">
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Visuals generation API</Link>
+              </li>
+              <li className="mb-2">
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Label maker</Link>
               </li>
              
             </ul>
@@ -42,13 +49,11 @@ function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</Link>
+                <a target='_blank' href="https://doc.labelbaker.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</a>
               </li>
+              
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Tutorials & Guides</Link>
-              </li>
-              <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</Link>
+                <Link to="/blog" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</Link>
               </li>
              
             </ul>
@@ -62,11 +67,9 @@ function Footer() {
                 <Link to="/roadmap" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Roadmap</Link>
               </li>
               
+              
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</Link>
-              </li>
-              <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</Link>
+                <Link to="/privacy" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</Link>
               </li>
             </ul>
           </div>
